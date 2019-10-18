@@ -13,3 +13,6 @@ for r in col.find({"kor":{"$gt":80}},{"_id":0, "name":1, "kor":1}):
     #print(r)
     re = dumps(r, ensure_ascii=False)
     print(re)
+
+myName = {"name":"홍길순","age":31}
+print(myName)
